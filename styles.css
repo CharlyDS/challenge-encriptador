@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #fafafc;
+
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 20%;
+    height: 30;
+    padding-top: 5%;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;justify-content: space-between;
+
+}
+
+.contenedorcajatexto{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 100px;
+    width: 1080px;
+    height: 600px;
+    
+}
+
+.cajatexto{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400px;
+
+}
+
+.cajatexto ::placeholder{
+    color: #0a3871;
+}
+
+.alerta{
+    position: absolute;
+    top:50px;
+    left: 50px;
+    display: flex;
+    color: #495057;
+
+}
+
+.contenedorbotones{
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding-left: 15%;
+    padding-top: 75%;
+
+}
+
+.encriptar{
+    width: 328;
+    height: 67px;
+    border-radius: 67px;
+    background-color: #0a3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.ocultar{
+    display: none;
+}
+
+
